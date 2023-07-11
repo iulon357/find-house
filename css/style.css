@@ -1,0 +1,238 @@
+@font-face {
+  font-family: poppins400;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins500;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppins600;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1024px; */
+    background-color: #F2F2F2;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  padding-left: 48px;
+  font-size: 14px;
+  font-family: poppins400;
+}
+
+.button {
+    width: 156px;
+    height: 47px;
+    background-color: #29B24E;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: poppins400;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.responsive {
+    width: 100%;
+}
+
+
+
+#location {
+    width: 290px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: poppins400;
+    margin-top: 16px;
+    border-color: #0d9ca436;
+  }
+  
+  .check-box {
+    background-color: #f8f8f8;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 24px 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-family: poppins400;
+  }
+  
+  #property1,
+  #property2,
+  #property3,
+  #property4,
+  #property5,
+  #property6,
+  #property7,
+  #property8,
+  #property9,
+  #property10,
+  #price-range1,
+  #price-range2,
+  #price-range3,
+  #price-range4,
+  #price-range5 {
+    accent-color: green;
+    background-color: #ffffff;
+  }
+  
+  .amount,
+  .ads {
+    font-size: 14px;
+    font-family: poppins400;
+    opacity: 50%;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-family: poppins500;
+    margin-top: 32px;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.house-card {
+  width: 395px;
+  height: 424px;
+  background-color: #F8F8F8;
+  border-radius: 24px;
+}
+
+.img-container {
+  position: relative;
+  padding: 16px;
+}
+
+.vip {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 76px;
+  height: 30px;
+  background-color: #29b24e;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: poppins500;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mark {
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+    box-shadow: -2px 4px 20px #6d6d6d40;  
+}
+
+.acres {
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: poppins500;
+  }
+  
+  .place {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: poppins400;
+    opacity: 50%;
+  }
+  
+  .price-month {
+    margin-left: 258px;
+    font-size: 12px;
+    font-family: poppins400;
+  }
+
+  .price {
+    font-size: 24px;
+    color: #29b24e;
+  }
+
+  .card-line {
+    width: 395px;
+    border: 0;
+    background-color: #cfead6;
+    margin-top: 16px;
+    height: 1px;
+  }
+  
+  .house-card-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    font-size: 12px;
+    font-family: poppins400;
+  }
+
+  footer {
+    background-color: #29B24E;
+    padding: 32px 140px;
+    margin-top: 120px;
+  }
+
+  .first-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .part-a, .part-c {
+    display: flex;
+    gap: 48px;
+  }
+
+  .second-line {
+    display: flex;
+    justify-content: center;
+  }
